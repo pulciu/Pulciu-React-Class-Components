@@ -1,0 +1,53 @@
+.side-nav-large .nav-content .link {
+	white-space: nowrap;
+	overflow: hidden;
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	font-size: 1.7rem;
+	background-color: rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+}
+
+.side-nav-large .nav-content .link:hover div.selected {
+	margin-left: 0px;
+}
+
+.side-nav-large .nav-content .link div {
+	position: relative;
+	width: 100%;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 20px;
+	color: #fff;
+	-webkit-transition: margin 0.2s;
+	-moz-transition: margin 0.2s;
+	-ms-transition: margin 0.2s;
+	-o-transition: margin 0.2s;
+	transition: margin 0.2s;
+}
+
+.side-nav-large .nav-content .link div .bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 6px;
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 0;
+}
+
+.side-nav-large .nav-content .link div.selected {
+	margin-left: -100%;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+.side-nav-large .nav-content .link a.active div.selected {
+	cursor: default;
+	margin-left: 0%;
+}
+
+@media only screen and (max-width: 950px) {
+	.side-nav-large .nav-content .link {
+		font-size: 1.9rem;
+		font-weight: 500;
+	}
+}

@@ -1,0 +1,199 @@
+.pages-container div.contact {
+	background-color: rgba(0, 0, 0, 0.1);
+	width: 100%;
+	height: 100%;
+	overflow-y: auto;
+}
+
+.pages-container .contact-form {
+	background-color: rgba(0, 0, 0, 0.4);
+	width: 100%;
+	min-height: 100%;
+	padding: 100px;
+	text-align: center;
+	box-sizing: border-box;
+	float: left;
+	color: #fff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.contact-form form {
+	width: 400px;
+}
+
+.contact-form .status {
+	max-height: 0;
+	padding: 0;
+}
+
+.contact-form .form-error.status {
+	max-height: 100px;
+	font-size: 1.6rem;
+	font-weight: 300;
+	margin: 10px 0 30px 0;
+	padding: 10px 15px;
+	background-color: rgba(0, 0, 0, 0.6);
+	display: inline-block;
+	width: 400px;
+	overflow: hidden;
+	box-sizing: border-box;
+	-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.35);
+	box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.35);
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.message-sent {
+	font-size: 1.6rem;
+	font-weight: 300;
+	margin: 10px 0 30px 0;
+	padding: 30px 15px;
+	background-color: rgba(0, 0, 0, 0.6);
+	display: inline-block;
+	width: 400px;
+	box-sizing: border-box;
+	-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.35);
+	box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.35);
+}
+
+.copy-format .message-sent h3 {
+	font-size: 2.6rem;
+}
+
+.contact-form form input[type="text"],
+.contact-form form input[type="email"],
+.contact-form form textarea {
+	width: 400px;
+	box-sizing: border-box;
+	padding: 10px;
+	appearance: none;
+	background: none;
+	border: none;
+	margin-bottom: 20px;
+	font-size: 1.8rem;
+	outline: none;
+	line-height: 130%;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.contact-form form input[type="text"]:focus,
+.contact-form form input[type="email"]:focus,
+.contact-form form textarea:focus {
+	-webkit-box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.15);
+	box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.15);
+}
+
+.contact-form form textarea {
+	margin-top: 10px;
+	resize: none;
+}
+
+.contact-form form input[type="submit"] {
+	appearance: none;
+	background: none;
+	border: none;
+	box-sizing: border-box;
+	color: #fff;
+	padding: 15px 20px;
+	font-size: 1.8rem;
+	cursor: pointer;
+	outline: none;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.contact-form form input[type="submit"]:hover {
+	-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+@media only screen and (max-width: 1300px) {
+	.contact-form .copy-format h4 {
+		font-size: 1.7rem;
+		margin: 10px 0 15px 0;
+	}
+}
+
+@media only screen and (max-width: 950px) {
+	.contact-form form {
+		max-width: 100%;
+		margin: 0 auto;
+	}
+
+	.form-error {
+		max-width: 100%;
+	}
+
+	.message-sent {
+		max-width: 100%;
+	}
+
+	.contact-form form input[type="text"],
+	.contact-form form input[type="email"],
+	.contact-form form textarea {
+		max-width: 100%;
+	}
+
+	.contact-form .content {
+		width: 100%;
+		padding: 0 40px;
+		box-sizing: border-box;
+	}
+
+	.pages-container .contact-form {
+		padding: 65px 0;
+	}
+
+	.pages-container .contact-form {
+		min-height: calc(100vh - 146px);
+	}
+
+	.pages-container .contact-form {
+		background-color: rgba(0, 0, 0, 0.3);
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.contact-form .content {
+		width: 100%;
+		padding: 0 30px;
+		box-sizing: border-box;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.contact-form .content {
+		width: 100%;
+		padding: 0 20px;
+		box-sizing: border-box;
+	}
+
+	.pages-container .contact-form {
+		padding: 50px 0;
+	}
+}

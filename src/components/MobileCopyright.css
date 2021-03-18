@@ -1,0 +1,22 @@
+.mobile-copyright {
+	display: none;
+	height: 45px;
+	overflow: hidden;
+	box-sizing: border-box;
+	position: relative;
+	padding: 15px 50px;
+	color: rgba(255, 255, 255, 0.2);
+	font-size: 1.3rem;
+	text-align: center;
+	background: rgb(0, 0, 0);
+	background: -moz-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.7) 15%);
+	background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.7) 15%);
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.7) 15%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+}
+
+@media only screen and (max-width: 950px) {
+	.mobile-copyright {
+		display: block;
+	}
+}

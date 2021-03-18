@@ -1,0 +1,406 @@
+:root {
+	--cs1-c1-A: rgba(169, 139, 128, 1);
+	--cs1-c1-B: rgba(186, 160, 151, 1);
+	--cs1-c1-B2: rgba(186, 160, 151, 0.3);
+	--cs1-c1-B3: rgba(186, 160, 151, 0.6);
+	--cs1-c1-C: rgba(234, 191, 175, 1);
+	--cs1-c2-A: rgba(130, 103, 99, 1);
+	--cs1-c2-B: rgba(151, 120, 117, 1);
+	--cs1-c3-A: rgba(75, 67, 84, 1);
+	--cs1-c3-B: rgba(112, 102, 125, 1);
+	--cs1-c4-A: rgba(26, 33, 59, 1);
+	--cs1-c4-A2: rgba(26, 33, 59, 0.3);
+	--cs1-c4-A3: rgba(26, 33, 59, 0.6);
+	--cs1-c4-B: rgba(33, 40, 68, 1);
+	--cs1-c4-C: rgba(62, 71, 104, 1);
+	--cs1-c4-C2: rgba(62, 71, 104, 0.75);
+}
+
+.cs1 .background-gradient-cs1 {
+	opacity: 1;
+}
+
+.background-gradient-cs1 {
+	background-repeat: repeat;
+	background: url("../images/oblique_pattern_light.png"), rgb(20, 23, 40);
+	background: url("../images/oblique_pattern_light.png"), -moz-linear-gradient(30deg, rgba(20, 23, 40, 1) 0%, rgba(32, 34, 51, 1) 20%, rgba(66, 64, 80, 1) 50%, rgba(172, 147, 143, 1) 100%);
+	background: url("../images/oblique_pattern_light.png"), -webkit-linear-gradient(30deg, rgba(20, 23, 40, 1) 0%, rgba(32, 34, 51, 1) 20%, rgba(66, 64, 80, 1) 50%, rgba(172, 147, 143, 1) 100%);
+	background: url("../images/oblique_pattern_light.png"), linear-gradient(30deg, rgba(20, 23, 40, 1) 0%, rgba(32, 34, 51, 1) 20%, rgba(66, 64, 80, 1) 50%, rgba(172, 147, 143, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#141728",endColorstr="#ac938f",GradientType=1);
+}
+
+.cs1 .side-nav-large .nav-content .logo-container .logo .logo-symbol .st1 {
+	fill-rule: evenodd;
+	clip-rule: evenodd;
+	fill: var(--cs1-c1-C);
+}
+.cs1 .side-nav-large .nav-content .logo-container .logo .logo-symbol .st2 {
+	fill-rule: evenodd;
+	clip-rule: evenodd;
+	fill: var(--cs1-c4-C);
+}
+.cs1 .side-nav-large .nav-content .logo-container .logo h2 {
+	color: var(--cs1-c1-C);
+}
+
+.cs1 .side-nav-large .nav-content li:nth-child(2) div {
+	color: var(--cs1-c1-B);
+}
+.cs1 .side-nav-large .nav-content li:nth-child(2) div .bar {
+	background-color: var(--cs1-c1-A);
+}
+.cs1 .side-nav-large .nav-content li:nth-child(2) div.selected {
+	background-color: var(--cs1-c1-A);
+	color: #fff;
+}
+.cs1 .side-nav-large .nav-content li:nth-child(2) div.selected .bar {
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+.cs1 .side-nav-large .nav-content li:nth-child(3) div {
+	color: var(--cs1-c2-B);
+}
+.cs1 .side-nav-large .nav-content li:nth-child(3) div .bar {
+	background-color: var(--cs1-c2-A);
+}
+.cs1 .side-nav-large .nav-content li:nth-child(3) div.selected {
+	background-color: var(--cs1-c2-A);
+	color: #fff;
+}
+.cs1 .side-nav-large .nav-content li:nth-child(3) div.selected .bar {
+	background-color: rgba(255, 255, 255, 0.15);
+}
+
+.cs1 .side-nav-large .nav-content li:nth-child(4) div {
+	color: var(--cs1-c3-B);
+}
+.cs1 .side-nav-large .nav-content li:nth-child(4) div .bar {
+	background-color: var(--cs1-c3-A);
+}
+.cs1 .side-nav-large .nav-content li:nth-child(4) div.selected {
+	background-color: var(--cs1-c3-A);
+	color: #fff;
+}
+.cs1 .side-nav-large .nav-content li:nth-child(4) div.selected .bar {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.cs1 .side-nav-large .nav-content li:nth-child(5) div {
+	color: var(--cs1-c4-C);
+}
+.cs1 .side-nav-large .nav-content li:nth-child(5) div .bar {
+	background-color: var(--cs1-c4-A);
+}
+.cs1 .side-nav-large .nav-content li:nth-child(5) div.selected {
+	background-color: var(--cs1-c4-A);
+	color: #fff;
+}
+.cs1 .side-nav-large .nav-content li:nth-child(5) div.selected .bar {
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+.cs1 .icon {
+	-webkit-box-shadow: inset 0px 0px 0px 3px var(--cs1-c4-B);
+	-moz-box-shadow: inset 0px 0px 0px 3px var(--cs1-c4-B);
+	box-shadow: inset 0px 0px 0px 3px var(--cs1-c4-B);
+}
+.cs1 .icon:hover {
+	-webkit-box-shadow: inset 0px 0px 0px 20px var(--cs1-c1-A);
+	-moz-box-shadow: inset 0px 0px 0px 20px var(--cs1-c1-A);
+	box-shadow: inset 0px 0px 0px 20px var(--cs1-c1-A);
+}
+.cs1 .icon svg {
+	fill: var(--cs1-c4-B);
+}
+.cs1 .icon:hover svg {
+	fill: #fff;
+}
+.cs1 .side-nav-large .nav-content .copyright {
+	color: var(--cs1-c4-C2);
+}
+.cs1 .pages-container .home .content ul.title li {
+	background-color: var(--cs1-c1-A);
+	color: #fff;
+}
+.cs1 .pages-container .home .content ul.title li:hover {
+	color: var(--cs1-c1-A);
+	background-color: #fff;
+	z-index: 3;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+.cs1 .pages-container .home .content ul.title li.selected {
+	color: var(--cs1-c1-A);
+	background-color: #fff;
+}
+.cs1 .pages-container div.work .projects-grid li {
+	background-color: var(--cs1-c3-A);
+}
+.cs1 .pages-container div.work .categories ul li {
+	color: #fff;
+}
+.cs1 .pages-container div.work .categories ul li.favorites {
+	color: var(--cs1-c1-B);
+}
+.cs1 .pages-container div.work .categories ul li.favorites svg {
+	fill: var(--cs1-c1-B);
+	color: var(--cs1-c1-B);
+}
+.cs1 .pages-container div.work .categories ul li.selected {
+	color: var(--cs1-c4-A);
+}
+.cs1 .pages-container div.work .categories ul li.selected svg {
+	fill: var(--cs1-c4-A);
+}
+.cs1 .pages-container div.work .categories ul li.search input[type="text"] {
+	border-bottom: 2px solid var(--cs1-c1-B2);
+	color: var(--cs1-c1-B);
+}
+.cs1 .pages-container div.work .categories ul li.search input[type="text"]:focus {
+	border-bottom: 2px solid var(--cs1-c1-B3);
+}
+.cs1 .pages-container div.work .categories ul li.search ::placeholder {
+	color: var(--cs1-c1-B);
+	opacity: 0.5;
+}
+.cs1 .pages-container div.work .categories ul li.search :-ms-input-placeholder {
+	color: var(--cs1-c1-B);
+	opacity: 0.5;
+}
+.cs1 .pages-container div.work .categories ul li.search ::-ms-input-placeholder {
+	color: var(--cs1-c1-B);
+	opacity: 0.5;
+}
+.cs1 .pages-container div.work .categories ul li.search svg {
+	fill: var(--cs1-c1-B);
+}
+.cs1 .pages-container div.work .categories ul li.search.selected input[type="text"] {
+	border-bottom: 2px solid var(--cs1-c4-A2);
+	color: var(--cs1-c4-A);
+}
+.cs1 .pages-container div.work .categories ul li.search.selected input[type="text"]:focus {
+	border-bottom: 2px solid var(--cs1-c4-A3);
+}
+.cs1 .pages-container div.work .categories ul li.search.selected ::placeholder {
+	color: var(--cs1-c4-A);
+	opacity: 0.5;
+}
+.cs1 .pages-container div.work .categories ul li.search.selected :-ms-input-placeholder {
+	color: var(--cs1-c4-A);
+	opacity: 0.5;
+}
+.cs1 .pages-container div.work .categories ul li.search.selected ::-ms-input-placeholder {
+	color: var(--cs1-c4-A);
+	opacity: 0.5;
+}
+.cs1 .pages-container div.work .categories ul li.search.selected svg {
+	fill: var(--cs1-c4-A);
+}
+.cs1 .pages-container div.work .projects-grid ul li .icon.add-favorite {
+	-webkit-box-shadow: inset 0px 0px 0px 3px #fff;
+	-moz-box-shadow: inset 0px 0px 0px 3px #fff;
+	box-shadow: inset 0px 0px 0px 3px #fff;
+}
+.cs1 .pages-container div.work .projects-grid ul li .icon.add-favorite svg {
+	fill: #fff;
+}
+.cs1 .pages-container div.work .projects-grid ul li .icon.add-favorite:hover {
+	-webkit-box-shadow: inset 0px 0px 0px 20px var(--cs1-c1-B);
+	-moz-box-shadow: inset 0px 0px 0px 20px var(--cs1-c1-B);
+	box-shadow: inset 0px 0px 0px 20px var(--cs1-c1-B);
+}
+.cs1 .pages-container div.work .categories ul li.favorites .share {
+	border: 1px solid var(--cs1-c1-B2);
+}
+.cs1 .pages-container div.work .categories ul li.favorites .share:hover {
+	border: 1px solid var(--cs1-c1-A);
+	background-color: var(--cs1-c1-A);
+	color: #fff;
+}
+.cs1 .pages-container div.work .categories ul li.favorites.selected .share {
+	border: 1px solid var(cs1-c4-A2);
+}
+.cs1 .pages-container div.work .categories ul li.favorites.selected .share:hover {
+	border: 1px solid var(--cs1-c4-A);
+	background-color: var(--cs1-c4-A);
+	color: #fff;
+}
+.cs1 .copy-format h4,
+.cs1 .copy-format h5 {
+	color: var(--cs1-c1-B);
+}
+.cs1 .side-nav-small .nav-content li.home svg {
+	fill: var(--cs1-c1-A);
+}
+.cs1 .side-nav-small .nav-content li.home:hover a {
+	background-color: var(--cs1-c1-A);
+}
+.cs1 .side-nav-small .nav-content li.home a.active {
+	background-color: var(--cs1-c1-A);
+}
+.cs1 .side-nav-small .nav-content li.home:hover svg {
+	fill: #fff;
+}
+.cs1 .side-nav-small .nav-content li.home a.active svg {
+	fill: #fff;
+}
+.cs1 .side-nav-small .nav-content li.work svg {
+	fill: var(--cs1-c2-A);
+}
+.cs1 .side-nav-small .nav-content li.work:hover a {
+	background-color: var(--cs1-c2-A);
+}
+.cs1 .side-nav-small .nav-content li.work a.active {
+	background-color: var(--cs1-c2-A);
+}
+.cs1 .side-nav-small .nav-content li.work:hover svg {
+	fill: #fff;
+}
+.cs1 .side-nav-small .nav-content li.work a.active svg {
+	fill: #fff;
+}
+.cs1 .side-nav-small .nav-content li.about svg {
+	fill: var(--cs1-c3-A);
+}
+.cs1 .side-nav-small .nav-content li.about:hover a {
+	background-color: var(--cs1-c3-A);
+}
+.cs1 .side-nav-small .nav-content li.about a.active {
+	background-color: var(--cs1-c3-A);
+}
+.cs1 .side-nav-small .nav-content li.about:hover svg {
+	fill: #fff;
+}
+.cs1 .side-nav-small .nav-content li.about a.active svg {
+	fill: #fff;
+}
+.cs1 .side-nav-small .nav-content li.contact svg {
+	fill: var(--cs1-c4-B);
+}
+.cs1 .side-nav-small .nav-content li.contact:hover a {
+	background-color: var(--cs1-c4-B);
+}
+.cs1 .side-nav-small .nav-content li.contact a.active {
+	background-color: var(--cs1-c4-B);
+}
+.cs1 .side-nav-small .nav-content li.contact:hover svg {
+	fill: #fff;
+}
+.cs1 .side-nav-small .nav-content li.contact a.active svg {
+	fill: #fff;
+}
+.cs1 .side-nav-small .nav-content li.paint-bucket svg,
+.cs1 .side-nav-small .nav-content li.resume svg,
+.cs1 .side-nav-small .nav-content li.expand svg {
+	fill: rgba(255, 255, 255, 0.1);
+}
+.cs1 .side-nav-small .nav-content li.paint-bucket:hover svg,
+.cs1 .side-nav-small .nav-content li.resume:hover svg,
+.cs1 .side-nav-small .nav-content li.expand:hover svg {
+	fill: rgba(255, 255, 255, 1);
+}
+.cs1 .pages-container div.work .categories ul li.favorites.selected span {
+	color: var(--cs1-c1-A);
+}
+.cs1 .contact-form form textarea {
+	border: 2px solid var(--cs1-c1-B2);
+	color: var(--cs1-c1-B);
+}
+.cs1 .contact-form form textarea:focus {
+	border: 2px solid var(--cs1-c1-B3);
+}
+.cs1 .contact-form form input[type="submit"] {
+	background-color: var(--cs1-c2-A);
+}
+.cs1 .contact-form form input[type="submit"]:hover {
+	color: var(--cs1-c2-A);
+	background-color: #fff;
+}
+.cs1 .contact-form form input[type="text"],
+.cs1 .contact-form form input[type="email"] {
+	border-bottom: 2px solid var(--cs1-c1-B2);
+}
+.cs1 .contact-form form input[type="text"]:focus,
+.cs1 .contact-form form input[type="email"]:focus {
+	border-bottom: 2px solid var(--cs1-c1-B3);
+}
+.cs1 .contact-form form input[type="text"],
+.cs1 .contact-form form input[type="email"] {
+	color: var(--cs1-c1-B);
+}
+.cs1 .contact-form ::placeholder {
+	color: var(--cs1-c1-B);
+	opacity: 0.5;
+}
+.cs1 .contact-form :-ms-input-placeholder {
+	color: var(--cs1-c1-B);
+	opacity: 0.5;
+}
+.cs1 .contact-form ::-ms-input-placeholder {
+	color: var(--cs1-c1-B);
+	opacity: 0.5;
+}
+.cs1 .pages-container div.work .categories {
+	background: rgb(0, 0, 0);
+	background: -moz-linear-gradient(-90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.35) 15%);
+	background: -webkit-linear-gradient(-90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.35) 15%);
+	background: linear-gradient(-90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.35) 15%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+}
+.cs1 .pages-container div.work .categories ul {
+	-webkit-box-shadow: 0px 0px 25px 0px rgb(0 0 0 / 60%);
+	-moz-box-shadow: 0px 0px 25px 0px rgb(0 0 0 / 60%);
+	box-shadow: 0px 0px 25px 0px rgb(0 0 0 / 60%);
+}
+.cs1 .side-nav-large {
+	background: rgb(0, 0, 0);
+	background: -moz-linear-gradient(-90deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.7) 15%);
+	background: -webkit-linear-gradient(-90deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.7) 15%);
+	background: linear-gradient(-90deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.7) 15%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+}
+.cs1 .side-nav-large .nav-content .logo-container {
+	-webkit-box-shadow: 0px -10px 16px 0px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 0px -10px 16px 0px rgba(0, 0, 0, 0.35);
+	box-shadow: 0px -10px 16px 0px rgba(0, 0, 0, 0.35);
+}
+.cs1 .side-nav-large .nav-content .copyright {
+	background: rgb(0, 0, 0);
+	background: -moz-linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 35%);
+	background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 35%);
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 35%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+}
+.cs1 .side-nav-small {
+	background: rgb(0, 0, 0);
+	background: -moz-linear-gradient(-90deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.7) 35%);
+	background: -webkit-linear-gradient(-90deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.7) 35%);
+	background: linear-gradient(-90deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.7) 35%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+}
+.cs1 .side-nav-small .nav-content li {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.cs1 .side-nav-large {
+	border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.15)) 1 100%;
+}
+.cs1 .side-nav-small {
+	border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.15)) 1 100%;
+}
+.cs1 .contact-form form input[type="submit"]:hover {
+	-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.75);
+}
+.cs1 .copy-format .message-sent h3 {
+	color: var(--cs1-c1-A);
+}
+
+@media only screen and (max-width: 950px) {
+	.cs1 .pages-container div.work .categories {
+		background: rgb(0, 0, 0);
+		background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.35) 15%);
+		background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.35) 15%);
+		background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.35) 15%);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+	}
+}

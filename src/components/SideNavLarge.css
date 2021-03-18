@@ -1,0 +1,292 @@
+body.large-nav .side-nav-large-container {
+	display: block;
+	width: 230px;
+}
+
+body.small-nav .side-nav-large-container {
+	display: none;
+}
+
+body.large-nav .side-nav-large-container:hover {
+	width: 250px;
+}
+
+.side-nav-large-container {
+	position: absolute;
+	left: 0;
+	height: 100vh;
+	overflow: hidden;
+	-webkit-transition: width 0.3s;
+	-moz-transition: width 0.3s;
+	-ms-transition: width 0.3s;
+	-o-transition: width 0.3s;
+	transition: width 0.3s;
+}
+
+.side-nav-large-container:hover .side-nav-large .nav-content .logo-container .logo .logo-symbol {
+	margin-left: 65px;
+}
+
+.side-nav-large-container .nav-content .extras {
+	position: relative;
+}
+
+.side-nav-large-container:hover .nav-content .extras {
+	padding: 15px 80px;
+}
+
+.side-nav-large {
+	height: 100vh;
+	width: calc(100% - 1px);
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	border-right-width: 1px;
+	border-right-style: solid;
+}
+
+.side-nav-large .nav-content {
+	width: 100%;
+	margin: 0 0 -15px 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+.side-nav-large .nav-content .logo-container {
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	height: 280px;
+}
+
+.side-nav-large .nav-content .logo-container .minimize-large-nav {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	float: left;
+}
+
+.side-nav-large .nav-content .logo-container .minimize-large-nav svg {
+	width: 13px;
+	height: 13px;
+	margin-left: -3px;
+	margin-top: -1px;
+	-webkit-transition: opacity 0.3s;
+	-moz-transition: opacity 0.3s;
+	-ms-transition: opacity 0.3s;
+	-o-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.side-nav-large .nav-content .logo-container .minimize-large-nav:hover svg {
+	opacity: 1;
+}
+
+.side-nav-large .nav-content .logo-container .logo .logo-symbol {
+	margin: 65px 0 0 55px;
+	position: relative;
+	height: 120px;
+	width: 120px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-transition: margin 0.3s;
+	-moz-transition: margin 0.3s;
+	-ms-transition: margin 0.3s;
+	-o-transition: margin 0.3s;
+	transition: margin 0.3s;
+}
+
+.side-nav-large .nav-content .logo-container .logo .logo-symbol a {
+	height: 100%;
+}
+
+.side-nav-large .nav-content .logo-container .logo .logo-symbol svg {
+	height: 100%;
+}
+
+.side-nav-large .nav-content .logo-container .logo h2 {
+	text-transform: uppercase;
+	font-size: 1.8rem;
+	color: #fff;
+	letter-spacing: 0.5rem;
+	width: 100%;
+	text-align: center;
+	margin: 1rem -0.25rem 0 0;
+	position: relative;
+	right: -0.25rem;
+	font-weight: lighter;
+}
+
+.side-nav-large .nav-content .extras {
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	padding: 15px 70px;
+	background-color: rgba(0, 0, 0, 0.3);
+	text-align: left;
+	-webkit-transition: padding 0.3s;
+	-moz-transition: padding 0.3s;
+	-ms-transition: padding 0.3s;
+	-o-transition: padding 0.3s;
+	transition: padding 0.3s;
+}
+
+.side-nav-large .nav-content .extras .icons {
+	display: inline-block;
+	position: relative;
+	z-index: 10;
+}
+
+.side-nav-large .nav-content .extras .icons div {
+	position: relative;
+	margin: 0 5px;
+	float: left;
+}
+
+.side-nav-large .nav-content .extras .icons .paint-bucket svg {
+	height: 15px;
+	margin-right: -1px;
+	margin-top: -1px;
+}
+
+.side-nav-large .nav-content .extras .icons .resume svg {
+	height: 16px;
+	width: 14px;
+}
+
+.side-nav-large .nav-content .extras .icons .resume a:link {
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.side-nav-large .nav-content .copyright {
+	padding: 20px;
+	text-transform: uppercase;
+	letter-spacing: 0.25rem;
+	font-size: 1.1rem;
+}
+
+.side-nav-large .nav-content .copyright span {
+	font-size: 1.5rem;
+	vertical-align: text-top;
+	height: 13px;
+	width: 13px;
+	display: inline-block;
+}
+
+@media only screen and (max-width: 1300px) {
+	.side-nav-large .nav-content .logo-container {
+		height: 260px;
+	}
+	.side-nav-large .nav-content .logo-container .logo .logo-symbol {
+		margin: 53px 0 0 55px;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.side-nav-large .nav-content .logo-container {
+		height: 240px;
+	}
+	.side-nav-large .nav-content .logo-container .logo .logo-symbol {
+		margin: 43px 0 0 55px;
+	}
+}
+
+@media only screen and (max-width: 950px) {
+	body.large-nav .side-nav-large-container {
+		display: none;
+	}
+
+	body.show-mobile-nav .side-nav-large-container {
+		display: block;
+	}
+
+	body.large-nav .side-nav-large-container,
+	body.small-nav .side-nav-large-container {
+		width: 100%;
+		z-index: 10;
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 100%;
+		overflow-y: hidden;
+	}
+
+	.show-mobile-nav .mobile-header {
+		position: fixed;
+	}
+
+	.side-nav-large .nav-content .logo-container .logo .logo-symbol {
+		margin: 50px auto 0 auto;
+	}
+
+	.side-nav-large .nav-content .logo-container .minimize-large-nav {
+		display: none;
+	}
+
+	.side-nav-large-container .nav-content .extras {
+		text-align: center;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	body.large-nav .side-nav-large-container:hover {
+		width: 100%;
+	}
+
+	.side-nav-large-container:hover .side-nav-large .nav-content .logo-container .logo .logo-symbol {
+		margin: 50px auto 0 auto;
+	}
+
+	.side-nav-large .nav-content .logo-container {
+		border-top: 0;
+	}
+
+	.side-nav-large {
+		display: inline-block;
+	}
+
+	.side-nav-large .nav-content .logo-container {
+		height: 210px;
+	}
+
+	.side-nav-large .nav-content .copyright {
+		font-size: 1.3rem;
+	}
+
+	.side-nav-large .nav-content .copyright span {
+		vertical-align: text-top;
+		margin-top: 1px;
+	}
+}
