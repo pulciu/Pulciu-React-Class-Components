@@ -1,53 +1,12 @@
 import React, { Component } from "react";
-import { filterByCategory, filterByTitle, getPortfolioItems } from "../api/PortfolioItems";
 import "./WorkNav.css";
 
 class WorkNav extends Component {
-	state = {
-		shareText: "Copy Link",
-		searchValue: "",
-	};
-
-	changeCategory = (newCategory) => {
-		this.props.updateCategory(newCategory);
-		if (newCategory !== "search") this.props.updatePortfolio(filterByCategory(newCategory));
-		this.setState({ searchValue: "" });
-	};
-
-	searchPortfolio = (e) => {
-		this.setState({ searchValue: e.target.value });
-		this.props.updatePortfolio(filterByTitle(e.target.value));
-	};
-
 	favoritesTabClasses = () => {
 		let classes = "favorites";
 		if (this.props.favorites.length > 0) classes = "favorites visible";
 		if (this.props.category === "favorites") classes = "favorites visible selected";
 		return classes;
-	};
-
-	showFavorites = () => {
-		this.props.updateCategory("favorites");
-		this.props.updatePortfolio(this.props.favorites);
-		this.setState({ searchValue: "" });
-	};
-
-	createFavoritesLink = () => {
-		let allItems = getPortfolioItems();
-		let windowLocation = window.location.href;
-		windowLocation = windowLocation.substr(0, windowLocation.lastIndexOf("/work") + 5);
-
-		for (let i = 0; i < this.props.favorites.length; i++) {
-			let index = allItems.indexOf(this.props.favorites[i]);
-			windowLocation += i > 0 ? "-" + index : "/" + index;
-		}
-
-		// Only works on HTTPS or localhost
-		navigator.clipboard.writeText(windowLocation);
-		this.setState({ shareText: "Copied!" });
-		setTimeout(() => {
-			this.setState({ shareText: "Copy Link" });
-		}, 5000);
 	};
 
 	render() {
@@ -56,7 +15,7 @@ class WorkNav extends Component {
 				<ul>
 					<li className={this.props.category === "search" ? "search selected" : "search"}>
 						<div className="tab-label">
-							<input name="search" type="text" value={this.state.searchValue} placeholder="Search" onChange={this.searchPortfolio} onClick={() => this.changeCategory("search")} />
+							<input name="search" type="text" value={this.props.searchValue} placeholder="Search" onChange={this.props.searchPortfolio} onClick={() => this.props.changeCategory("search")} />
 						</div>
 						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" xmlSpace="preserve">
 							<g>
@@ -73,25 +32,25 @@ class WorkNav extends Component {
 						</svg>
 						<div className="bar"></div>
 					</li>
-					<li className={this.props.category === "uiux" ? "selected" : ""} onClick={() => this.changeCategory("uiux")}>
+					<li className={this.props.category === "uiux" ? "selected" : ""} onClick={() => this.props.changeCategory("uiux")}>
 						<div className="tab-label">UI/ UX</div>
 						<div className="bar"></div>
 					</li>
-					<li className={this.props.category === "marketing" ? "selected" : ""} onClick={() => this.changeCategory("marketing")}>
+					<li className={this.props.category === "marketing" ? "selected" : ""} onClick={() => this.props.changeCategory("marketing")}>
 						<div className="tab-label">Marketing</div>
 						<div className="bar"></div>
 					</li>
-					<li className={this.props.category === "identity" ? "selected" : ""} onClick={() => this.changeCategory("identity")}>
+					<li className={this.props.category === "identity" ? "selected" : ""} onClick={() => this.props.changeCategory("identity")}>
 						<div className="tab-label">Identity</div>
 						<div className="bar"></div>
 					</li>
-					<li className={this.props.category === "others" ? "selected" : ""} onClick={() => this.changeCategory("others")}>
+					<li className={this.props.category === "others" ? "selected" : ""} onClick={() => this.props.changeCategory("others")}>
 						<div className="tab-label">Others</div>
 						<div className="bar"></div>
 					</li>
 					<li className={this.favoritesTabClasses()}>
 						<div className="tab-label">
-							<div onClick={this.showFavorites}>
+							<div onClick={() => this.props.changeCategory("favorites")}>
 								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 516 430.7" xmlSpace="preserve">
 									<g>
 										<g>
@@ -109,11 +68,11 @@ class WorkNav extends Component {
 								</svg>
 								Favorites <span>{this.props.favorites.length}</span>
 							</div>
-							<div className="share" onClick={this.createFavoritesLink}>
-								{this.state.shareText}
+							<div className="share" onClick={this.props.createFavoritesLink}>
+								{this.props.shareText}
 							</div>
 						</div>
-						<div className="select-favorites-tab" onClick={this.showFavorites}></div>
+						<div className="select-favorites-tab" onClick={() => this.props.changeCategory("favorites")}></div>
 						<div className="bar"></div>
 					</li>
 				</ul>
