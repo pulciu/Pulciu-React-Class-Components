@@ -10,7 +10,7 @@ class Work extends Component {
 		portfolioDisplayed: [],
 		favorites: [],
 		category: "uiux",
-		transition: "",
+		transition: "fadeOut",
 		portfolioUpdate: null,
 		shareText: "Copy Link",
 		searchValue: "",
@@ -30,11 +30,13 @@ class Work extends Component {
 					favorites.push(response.data.portfolio[parseInt(favoriteIds[i])]);
 				}
 
-				this.setState({ portfolioDisplayed: favorites });
-				this.setState({ favorites: favorites });
-				this.setState({ category: "favorites" });
+				setTimeout(() => {
+					this.setState({ portfolioDisplayed: favorites, favorites: favorites, category: "favorites", transition: "" });
+				}, 300);
 			} else {
-				this.setState({ portfolioDisplayed: response.data.portfolio.filter((p) => p.category === "uiux") });
+				setTimeout(() => {
+					this.setState({ portfolioDisplayed: response.data.portfolio.filter((p) => p.category === "uiux"), transition: "" });
+				}, 300);
 			}
 		});
 	}
