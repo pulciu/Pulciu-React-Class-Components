@@ -135,7 +135,7 @@
 	}
 
 	.pages-container div.home h2 {
-		font-size: 8vw;
+		font-size: 10vw;
 	}
 
 	.pages-container .home .content ul.title {
@@ -148,7 +148,7 @@
 	}
 
 	.pages-container .home .content ul.title li {
-		font-size: 4.5vw;
+		font-size: 6vw;
 		padding: 3.5vw;
 		margin: 0;
 	}
@@ -159,8 +159,8 @@
 	}
 
 	.pages-container .home .content ul.description li {
-		font-size: 3.5vw;
-		height: 14vw;
+		font-size: 4.3vw;
+		height: 20vw;
 		width: 80vw;
 		margin: 0.25vw 0 0 0;
 	}

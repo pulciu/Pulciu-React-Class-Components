@@ -16,17 +16,17 @@
 }
 
 .large-nav .pages-container div.work .projects-grid ul li {
-	height: calc(22vw - 150px);
+	height: calc(22vw - 15rem);
 }
 
 .small-nav .pages-container div.work .projects-grid ul li {
-	height: calc(22vw - 95px);
+	height: calc(22vw - 9.5rem);
 }
 
 .pages-container div.work .projects-grid ul li h4 {
 	opacity: 0;
 	margin: 10px 0 0 0;
-	font-size: 2.6rem;
+	font-size: 2.4rem;
 	color: #fff;
 	font-weight: lighter;
 	text-align: center;
@@ -121,11 +121,11 @@
 
 @media only screen and (max-width: 1300px) {
 	.small-nav .pages-container div.work .projects-grid ul li {
-		height: calc(30vw - 90px);
+		height: calc(30vw - 9rem);
 	}
 
 	.large-nav .pages-container div.work .projects-grid ul li {
-		height: calc(30vw - 150px);
+		height: calc(30vw - 15rem);
 	}
 }
 

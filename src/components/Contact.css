@@ -30,6 +30,7 @@
 
 .contact-form form {
 	width: 400px;
+	margin: auto;
 }
 
 .contact-form .status {

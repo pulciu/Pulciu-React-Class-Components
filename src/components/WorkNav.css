@@ -1,9 +1,9 @@
 .pages-container .work .categories {
-	width: 230px;
+	width: 23rem;
 }
 
 .pages-container .work .categories:hover {
-	width: 250px;
+	width: 25rem;
 }
 .pages-container div.work .categories {
 	height: 100%;
@@ -117,10 +117,10 @@
 }
 
 .pages-container div.work .categories ul li.favorites svg {
-	width: 16px;
-	margin-right: 4px;
+	width: 1.6rem;
+	margin-right: 0.4rem;
 	vertical-align: middle;
-	margin-top: -2px;
+	margin-top: -0.2rem;
 }
 
 .select-favorites-tab {
@@ -139,8 +139,8 @@
 	display: inline-block;
 	vertical-align: middle;
 	font-size: 1.2rem;
-	padding: 6px 0;
-	border-radius: 6px;
+	padding: 0.6rem 0;
+	border-radius: 0.6rem;
 	margin-top: -4px;
 	cursor: pointer;
 	-webkit-transition: all 0.3s;
@@ -156,8 +156,8 @@
 .pages-container div.work .categories:hover ul li.favorites .share {
 	margin-left: 10px;
 	opacity: 1;
-	max-width: 50px;
-	padding: 6px 6px;
+	max-width: 6rem;
+	padding: 0.6rem;
 }
 
 .pages-container div.work .categories ul li.search {
@@ -216,7 +216,7 @@
 	.pages-container div.work .categories ul li.favorites .share {
 		margin-left: 10px;
 		opacity: 1;
-		max-width: 50px;
-		padding: 6px 6px;
+		max-width: 5rem;
+		padding: 0.6rem;
 	}
 }

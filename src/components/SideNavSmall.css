@@ -7,7 +7,7 @@ body.small-nav .side-nav-small-container {
 }
 
 .side-nav-small-container {
-	width: 50px;
+	width: 5rem;
 	position: absolute;
 	left: 0;
 	height: 100vh;
@@ -45,7 +45,7 @@ body.small-nav .side-nav-small-container {
 }
 
 .side-nav-small .nav-content li {
-	height: 50px;
+	height: 5rem;
 	border-top: 1px solid rgba(255, 255, 255, 0.1);
 	cursor: pointer;
 	-webkit-transition: all 0.3s;
@@ -57,7 +57,7 @@ body.small-nav .side-nav-small-container {
 
 .side-nav-small .nav-content li a:link {
 	width: 100%;
-	height: 50px;
+	height: 5rem;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -130,7 +130,7 @@ body.small-nav .side-nav-small-container {
 	position: absolute;
 	left: 0;
 	height: 100vh;
-	width: 50px;
+	width: 5rem;
 	overflow: hidden;
 	display: none;
 }

@@ -137,40 +137,40 @@ body {
 }
 
 body.large-nav .pages-container {
-	width: calc(100vw - 230px);
-	left: 230px;
+	width: calc(100vw - 23rem);
+	left: 23rem;
 }
 
 body.large-nav:hover .pages-container {
-	width: calc(100vw - 250px);
-	left: 250px;
+	width: calc(100vw - 25rem);
+	left: 25rem;
 }
 
 body.large-nav .pages-container:hover {
-	width: calc(100vw - 230px);
-	left: 230px;
+	width: calc(100vw - 23rem);
+	left: 23rem;
 }
 
 .pages-container .work .projects-grid {
-	width: calc(100% - 230px);
+	width: calc(100% - 23rem);
 }
 
 .pages-container:hover .work .projects-grid {
-	width: calc(100% - 250px);
+	width: calc(100% - 25rem);
 }
 
 .pages-container .work .projects-grid:hover {
-	width: calc(100% - 230px);
+	width: calc(100% - 23rem);
 }
 
 body.small-nav .pages-container {
-	width: calc(100vw - 50px);
-	left: 50px;
+	width: calc(100vw - 5rem);
+	left: 5rem;
 }
 
 body.large-nav.show-color-schemes div.pages-container {
-	width: calc(100vw - 230px);
-	left: 230px;
+	width: calc(100vw - 23rem);
+	left: 23rem;
 }
 
 .pages-container > div {

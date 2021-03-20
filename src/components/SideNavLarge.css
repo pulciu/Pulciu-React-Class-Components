@@ -1,6 +1,6 @@
 body.large-nav .side-nav-large-container {
 	display: block;
-	width: 230px;
+	width: 23rem;
 }
 
 body.small-nav .side-nav-large-container {
@@ -8,7 +8,7 @@ body.small-nav .side-nav-large-container {
 }
 
 body.large-nav .side-nav-large-container:hover {
-	width: 250px;
+	width: 25rem;
 }
 
 .side-nav-large-container {
@@ -21,10 +21,6 @@ body.large-nav .side-nav-large-container:hover {
 	-ms-transition: width 0.3s;
 	-o-transition: width 0.3s;
 	transition: width 0.3s;
-}
-
-.side-nav-large-container:hover .side-nav-large .nav-content .logo-container .logo .logo-symbol {
-	margin-left: 65px;
 }
 
 .side-nav-large-container .nav-content .extras {
@@ -93,7 +89,7 @@ body.large-nav .side-nav-large-container:hover {
 }
 
 .side-nav-large .nav-content .logo-container .logo .logo-symbol {
-	margin: 65px 0 0 55px;
+	margin: 65px auto 0 auto;
 	position: relative;
 	height: 120px;
 	width: 120px;
@@ -142,7 +138,7 @@ body.large-nav .side-nav-large-container:hover {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 	padding: 15px 70px;
 	background-color: rgba(0, 0, 0, 0.3);
-	text-align: left;
+	text-align: center;
 	-webkit-transition: padding 0.3s;
 	-moz-transition: padding 0.3s;
 	-ms-transition: padding 0.3s;
@@ -193,12 +189,12 @@ body.large-nav .side-nav-large-container:hover {
 .side-nav-large .nav-content .copyright {
 	padding: 20px;
 	text-transform: uppercase;
-	letter-spacing: 0.25rem;
-	font-size: 1.1rem;
+	letter-spacing: 2.5px;
+	font-size: 11px;
 }
 
 .side-nav-large .nav-content .copyright span {
-	font-size: 1.5rem;
+	font-size: 15px;
 	vertical-align: text-top;
 	height: 13px;
 	width: 13px;
@@ -282,7 +278,7 @@ body.large-nav .side-nav-large-container:hover {
 	}
 
 	.side-nav-large .nav-content .copyright {
-		font-size: 1.3rem;
+		font-size: 13px;
 	}
 
 	.side-nav-large .nav-content .copyright span {
