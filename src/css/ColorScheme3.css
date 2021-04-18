@@ -19,6 +19,7 @@
 .cs3 .background-gradient-cs3 {
 	opacity: 1;
 }
+
 .background-gradient-cs3 {
 	background: url("../images/oblique_pattern_light.png"), rgb(26, 17, 61);
 	background: url("../images/oblique_pattern_light.png"), -moz-linear-gradient(30deg, rgba(26, 17, 61, 1) 0%, rgba(31, 69, 124, 1) 41%, rgba(53, 121, 159, 1) 64%, rgba(115, 255, 234, 1) 100%);

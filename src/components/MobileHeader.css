@@ -75,14 +75,14 @@
 	opacity: 0;
 }
 
-.show-mobile-nav .logo-container {
-	background: none !important;
-	box-shadow: none !important;
+body.show-mobile-nav .side-nav-large li.logo-container {
+	background: none;
+	box-shadow: none;
 }
 
-.show-mobile-nav .side-nav-large {
-	background: none !important;
-	background-color: rgba(0, 0, 0, 0.85) !important;
+body.show-mobile-nav .side-nav-large {
+	background: none;
+	background-color: rgba(0, 0, 0, 0.85);
 }
 
 @media only screen and (max-width: 950px) {

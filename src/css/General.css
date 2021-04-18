@@ -136,39 +136,39 @@ body {
 	transition: left 0.3s, width 0.3s;
 }
 
-body.large-nav .pages-container {
+.large-nav .pages-container {
 	width: calc(100vw - 23rem);
 	left: 23rem;
 }
 
-body.large-nav:hover .pages-container {
+.large-nav:hover .pages-container {
 	width: calc(100vw - 25rem);
 	left: 25rem;
 }
 
-body.large-nav .pages-container:hover {
+.large-nav .pages-container:hover {
 	width: calc(100vw - 23rem);
 	left: 23rem;
 }
 
-.pages-container .work .projects-grid {
+.work .projects-grid {
 	width: calc(100% - 23rem);
 }
 
-.pages-container:hover .work .projects-grid {
+.pages-container:hover .projects-grid {
 	width: calc(100% - 25rem);
 }
 
-.pages-container .work .projects-grid:hover {
+.work .projects-grid:hover {
 	width: calc(100% - 23rem);
 }
 
-body.small-nav .pages-container {
+.small-nav .pages-container {
 	width: calc(100vw - 5rem);
 	left: 5rem;
 }
 
-body.large-nav.show-color-schemes div.pages-container {
+.large-nav.show-color-schemes div.pages-container {
 	width: calc(100vw - 23rem);
 	left: 23rem;
 }
@@ -184,7 +184,7 @@ body.large-nav.show-color-schemes div.pages-container {
 	overflow: hidden;
 }
 
-body.large-nav .pages-container {
+.large-nav .pages-container {
 	-webkit-transition: width 0.3s, left 0.3s;
 	-moz-transition: width 0.3s, left 0.3s;
 	-ms-transition: width 0.3s, left 0.3s;
@@ -315,30 +315,30 @@ body.large-nav .pages-container {
 }
 
 @media only screen and (max-width: 950px) {
-	body.small-nav .side-nav-small-container {
+	.small-nav .side-nav-small-container {
 		display: none;
 	}
-	body.small-nav .pages-container,
-	body.large-nav .pages-container {
+	.small-nav .pages-container,
+	.large-nav .pages-container {
 		left: 0;
 		width: 100%;
 		position: static;
 		height: auto;
 		transition: none;
 	}
-	body.large-nav:hover .pages-container {
+	.large-nav:hover .pages-container {
 		left: 0;
 		width: 100%;
 		position: static;
 	}
-	body.large-nav .pages-container:hover {
+	.large-nav .pages-container:hover {
 		left: 0;
 		width: 100%;
 		position: static;
 	}
 
-	.pages-container > div {
-		transform: none !important;
-		animation: none !important;
+	.perspective > div.rotate-in {
+		transform: none;
+		animation: none;
 	}
 }

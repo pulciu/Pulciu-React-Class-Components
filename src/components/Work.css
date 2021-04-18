@@ -88,10 +88,14 @@
 }
 
 @media only screen and (max-width: 950px) {
-	.work .projects-grid {
-		width: 100% !important;
+	.work div.projects-grid {
+		width: 100%;
 		overflow-y: hidden;
 		height: auto;
+	}
+
+	.work:hover div.projects-grid {
+		width: 100%;
 	}
 }
 
