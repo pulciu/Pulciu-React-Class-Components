@@ -1,8 +1,8 @@
-body.large-nav .side-nav-small-container {
+.large-nav .side-nav-small-container {
 	display: none;
 }
 
-body.small-nav .side-nav-small-container {
+.small-nav .side-nav-small-container {
 	display: block;
 }
 
@@ -44,7 +44,7 @@ body.small-nav .side-nav-small-container {
 	box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.55);
 }
 
-.side-nav-small .nav-content li {
+.side-nav-small li {
 	height: 5rem;
 	border-top: 1px solid rgba(255, 255, 255, 0.1);
 	cursor: pointer;
@@ -55,7 +55,7 @@ body.small-nav .side-nav-small-container {
 	transition: all 0.3s;
 }
 
-.side-nav-small .nav-content li a:link {
+.side-nav-small a:link {
 	width: 100%;
 	height: 5rem;
 	display: -webkit-box;
@@ -70,17 +70,23 @@ body.small-nav .side-nav-small-container {
 	-webkit-justify-content: center;
 	-ms-flex-pack: center;
 	justify-content: center;
+
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
 }
 
-.side-nav-small .nav-content li.selected {
+.side-nav-small li.selected {
 	cursor: default;
 }
 
-.side-nav-small .nav-content li:last-child {
+.side-nav-small li:last-child {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.side-nav-small .nav-content li svg {
+.side-nav-small svg {
 	height: 20px;
 	fill: #fff;
 	-webkit-transition: all 0.3s;
@@ -90,28 +96,20 @@ body.small-nav .side-nav-small-container {
 	transition: all 0.3s;
 }
 
-.side-nav-small .nav-content li a:link {
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
-.side-nav-small .nav-content li.contact svg,
-.side-nav-small .nav-content li.expand svg {
+.side-nav-small li.contact svg,
+.side-nav-small li.expand svg {
 	height: 16px;
 }
 
-.side-nav-small .nav-content li.paint-bucket,
-.side-nav-small .nav-content li.resume,
-.side-nav-small .nav-content li.expand {
+.side-nav-small li.paint-bucket,
+.side-nav-small li.resume,
+.side-nav-small li.expand {
 	background-color: rgba(0, 0, 0, 0.1);
 }
 
-.side-nav-small .nav-content li.paint-bucket,
-.side-nav-small .nav-content li.resume,
-.side-nav-small .nav-content li.expand {
+.side-nav-small li.paint-bucket,
+.side-nav-small li.resume,
+.side-nav-small li.expand {
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;

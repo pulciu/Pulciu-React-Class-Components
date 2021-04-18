@@ -1,4 +1,4 @@
-.pages-container div.work .projects-grid ul li {
+.work .projects-grid li {
 	position: relative;
 	overflow: hidden;
 	cursor: pointer;
@@ -15,15 +15,15 @@
 	user-select: none;
 }
 
-.large-nav .pages-container div.work .projects-grid ul li {
+.large-nav .work .projects-grid li {
 	height: calc(22vw - 15rem);
 }
 
-.small-nav .pages-container div.work .projects-grid ul li {
+.small-nav .work .projects-grid li {
 	height: calc(22vw - 9.5rem);
 }
 
-.pages-container div.work .projects-grid ul li h4 {
+.work .projects-grid h4 {
 	opacity: 0;
 	margin: 10px 0 0 0;
 	font-size: 2.4rem;
@@ -43,7 +43,7 @@
 	transition: all 0.3s;
 }
 
-.pages-container div.work .projects-grid ul li img {
+.work .projects-grid img {
 	opacity: 0;
 	width: 102%;
 	position: absolute;
@@ -59,42 +59,42 @@
 	transition: all 0.3s;
 }
 
-.pages-container div.work .projects-grid ul li img.loaded {
+.work .projects-grid img.loaded {
 	opacity: 0.3;
 }
 
-.pages-container div.work .projects-grid ul.fadeOut li img.loaded {
+.work .projects-grid ul.fadeOut img.loaded {
 	opacity: 0;
 }
 
-.pages-container div.work .projects-grid ul li a:link {
+.work .projects-grid a:link {
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	z-index: 2;
 }
 
-.pages-container div.work .projects-grid ul li:hover {
+.work .projects-grid li:hover {
 	-webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.3);
 	-moz-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.3);
 	box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.3);
 }
 
-.pages-container div.work .projects-grid ul li:hover img.loaded {
+.work .projects-grid li:hover img.loaded {
 	width: 110%;
 	opacity: 0.1;
 }
 
-.pages-container div.work .projects-grid ul.fadeOut li:hover img.loaded {
+.work .projects-grid ul.fadeOut li:hover img.loaded {
 	opacity: 0;
 }
 
-.pages-container div.work .projects-grid ul li:hover h4 {
+.work .projects-grid li:hover h4 {
 	margin-top: 0;
 	opacity: 1;
 }
 
-.pages-container div.work .projects-grid ul li .add-favorite {
+.work .projects-grid .add-favorite {
 	position: absolute;
 	top: 20px;
 	right: 20px;
@@ -102,68 +102,64 @@
 	z-index: 3;
 }
 
-.pages-container div.work .projects-grid ul li .add-favorite.favorite {
+.work .projects-grid .add-favorite.favorite {
 	opacity: 1;
 }
 
-.pages-container div.work .projects-grid ul li .icon.add-favorite svg {
+.work .projects-grid .icon.add-favorite svg {
 	width: 18px;
 	margin-top: 1px;
 }
 
-.pages-container div.work .projects-grid ul li .icon.add-favorite:hover svg {
-	fill: #826763;
-}
-
-.pages-container div.work .projects-grid ul li:hover .add-favorite {
+.work .projects-grid li:hover .add-favorite {
 	opacity: 1;
 }
 
 @media only screen and (max-width: 1300px) {
-	.small-nav .pages-container div.work .projects-grid ul li {
+	.small-nav .work .projects-grid li {
 		height: calc(30vw - 9rem);
 	}
 
-	.large-nav .pages-container div.work .projects-grid ul li {
+	.large-nav .work .projects-grid li {
 		height: calc(30vw - 15rem);
 	}
 }
 
 @media only screen and (max-width: 950px) {
-	.large-nav .pages-container div.work .projects-grid ul li {
+	.large-nav .work .projects-grid li {
 		height: 28vw;
 	}
 
-	.pages-container div.work .projects-grid ul li h4 {
+	.work .projects-grid h4 {
 		margin-top: 0;
 		opacity: 1;
 	}
 
-	.pages-container div.work .projects-grid ul li .add-favorite {
+	.work .projects-grid .add-favorite {
 		opacity: 1;
 	}
 
-	.pages-container div.work .projects-grid ul li img {
+	.work .projects-grid img {
 		opacity: 0.1;
 	}
 }
 
 @media only screen and (max-width: 600px) {
-	.pages-container div.work .projects-grid ul {
+	.work .projects-grid ul {
 		grid-template-columns: 1fr;
 	}
 
-	.large-nav .pages-container div.work .projects-grid ul li {
+	.large-nav .work .projects-grid li {
 		height: 50vw;
 	}
-	.pages-container div.work .projects-grid ul li .add-favorite {
+	.work .projects-grid li .add-favorite {
 		top: 15px;
 		right: 15px;
 	}
 }
 
 @media only screen and (max-width: 500px) {
-	.pages-container div.work .projects-grid ul li .add-favorite {
+	.work .projects-grid li .add-favorite {
 		top: 10px;
 		right: 10px;
 	}

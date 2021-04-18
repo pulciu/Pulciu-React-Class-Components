@@ -41,8 +41,8 @@
 	transition: all 0.3s;
 }
 
-.mobile-header .st1,
-.mobile-header .st2 {
+.mobile-header svg .st1,
+.mobile-header svg .st2 {
 	fill-rule: evenodd;
 	clip-rule: evenodd;
 	fill: #fff;
@@ -75,7 +75,7 @@
 	opacity: 0;
 }
 
-.show-mobile-nav .side-nav-large .nav-content .logo-container {
+.show-mobile-nav .logo-container {
 	background: none !important;
 	box-shadow: none !important;
 }

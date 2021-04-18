@@ -1,13 +1,13 @@
-body.large-nav .side-nav-large-container {
+.large-nav .side-nav-large-container {
 	display: block;
 	width: 23rem;
 }
 
-body.small-nav .side-nav-large-container {
+.small-nav .side-nav-large-container {
 	display: none;
 }
 
-body.large-nav .side-nav-large-container:hover {
+.large-nav .side-nav-large-container:hover {
 	width: 25rem;
 }
 
@@ -23,11 +23,11 @@ body.large-nav .side-nav-large-container:hover {
 	transition: width 0.3s;
 }
 
-.side-nav-large-container .nav-content .extras {
+.side-nav-large-container .extras {
 	position: relative;
 }
 
-.side-nav-large-container:hover .nav-content .extras {
+.side-nav-large-container:hover .extras {
 	padding: 15px 80px;
 }
 
@@ -58,21 +58,21 @@ body.large-nav .side-nav-large-container:hover {
 	text-align: center;
 }
 
-.side-nav-large .nav-content .logo-container {
+.side-nav-large .logo-container {
 	position: relative;
 	background-color: rgba(0, 0, 0, 0.5);
 	border-top: 1px solid rgba(255, 255, 255, 0.1);
 	height: 280px;
 }
 
-.side-nav-large .nav-content .logo-container .minimize-large-nav {
+.side-nav-large .minimize-large-nav {
 	position: absolute;
 	top: 10px;
 	right: 10px;
 	float: left;
 }
 
-.side-nav-large .nav-content .logo-container .minimize-large-nav svg {
+.side-nav-large .minimize-large-nav svg {
 	width: 13px;
 	height: 13px;
 	margin-left: -3px;
@@ -84,11 +84,11 @@ body.large-nav .side-nav-large-container:hover {
 	transition: opacity 0.3s;
 }
 
-.side-nav-large .nav-content .logo-container .minimize-large-nav:hover svg {
+.side-nav-large .minimize-large-nav:hover svg {
 	opacity: 1;
 }
 
-.side-nav-large .nav-content .logo-container .logo .logo-symbol {
+.side-nav-large .logo-symbol {
 	margin: 65px auto 0 auto;
 	position: relative;
 	height: 120px;
@@ -112,15 +112,15 @@ body.large-nav .side-nav-large-container:hover {
 	transition: margin 0.3s;
 }
 
-.side-nav-large .nav-content .logo-container .logo .logo-symbol a {
+.side-nav-large .logo-symbol a {
 	height: 100%;
 }
 
-.side-nav-large .nav-content .logo-container .logo .logo-symbol svg {
+.side-nav-large .logo-symbol svg {
 	height: 100%;
 }
 
-.side-nav-large .nav-content .logo-container .logo h2 {
+.side-nav-large h2 {
 	text-transform: uppercase;
 	font-size: 1.8rem;
 	color: #fff;
@@ -133,7 +133,7 @@ body.large-nav .side-nav-large-container:hover {
 	font-weight: lighter;
 }
 
-.side-nav-large .nav-content .extras {
+.side-nav-large .extras {
 	border-top: 1px solid rgba(255, 255, 255, 0.1);
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 	padding: 15px 70px;
@@ -146,30 +146,30 @@ body.large-nav .side-nav-large-container:hover {
 	transition: padding 0.3s;
 }
 
-.side-nav-large .nav-content .extras .icons {
+.side-nav-large .icons {
 	display: inline-block;
 	position: relative;
 	z-index: 10;
 }
 
-.side-nav-large .nav-content .extras .icons div {
+.side-nav-large .icons div {
 	position: relative;
 	margin: 0 5px;
 	float: left;
 }
 
-.side-nav-large .nav-content .extras .icons .paint-bucket svg {
+.side-nav-large .paint-bucket svg {
 	height: 15px;
 	margin-right: -1px;
 	margin-top: -1px;
 }
 
-.side-nav-large .nav-content .extras .icons .resume svg {
+.side-nav-large .resume svg {
 	height: 16px;
 	width: 14px;
 }
 
-.side-nav-large .nav-content .extras .icons .resume a:link {
+.side-nav-large .resume a:link {
 	width: 100%;
 	height: 100%;
 	display: -webkit-box;
@@ -186,14 +186,14 @@ body.large-nav .side-nav-large-container:hover {
 	justify-content: center;
 }
 
-.side-nav-large .nav-content .copyright {
+.side-nav-large .copyright {
 	padding: 20px;
 	text-transform: uppercase;
 	letter-spacing: 2.5px;
 	font-size: 11px;
 }
 
-.side-nav-large .nav-content .copyright span {
+.side-nav-large .copyright span {
 	font-size: 15px;
 	vertical-align: text-top;
 	height: 13px;
@@ -202,34 +202,34 @@ body.large-nav .side-nav-large-container:hover {
 }
 
 @media only screen and (max-width: 1300px) {
-	.side-nav-large .nav-content .logo-container {
+	.side-nav-large .logo-container {
 		height: 260px;
 	}
-	.side-nav-large .nav-content .logo-container .logo .logo-symbol {
+	.side-nav-large .logo-symbol {
 		margin: 53px 0 0 55px;
 	}
 }
 
 @media only screen and (max-width: 1200px) {
-	.side-nav-large .nav-content .logo-container {
+	.side-nav-large .logo-container {
 		height: 240px;
 	}
-	.side-nav-large .nav-content .logo-container .logo .logo-symbol {
+	.side-nav-large .logo-symbol {
 		margin: 43px 0 0 55px;
 	}
 }
 
 @media only screen and (max-width: 950px) {
-	body.large-nav .side-nav-large-container {
+	.large-nav .side-nav-large-container {
 		display: none;
 	}
 
-	body.show-mobile-nav .side-nav-large-container {
+	.show-mobile-nav .side-nav-large-container {
 		display: block;
 	}
 
-	body.large-nav .side-nav-large-container,
-	body.small-nav .side-nav-large-container {
+	.large-nav .side-nav-large-container,
+	.small-nav .side-nav-large-container {
 		width: 100%;
 		z-index: 10;
 		position: fixed;
@@ -243,29 +243,29 @@ body.large-nav .side-nav-large-container:hover {
 		position: fixed;
 	}
 
-	.side-nav-large .nav-content .logo-container .logo .logo-symbol {
+	.side-nav-large .logo-symbol {
 		margin: 50px auto 0 auto;
 	}
 
-	.side-nav-large .nav-content .logo-container .minimize-large-nav {
+	.side-nav-large .minimize-large-nav {
 		display: none;
 	}
 
-	.side-nav-large-container .nav-content .extras {
+	.side-nav-large-container .extras {
 		text-align: center;
 		padding-left: 0;
 		padding-right: 0;
 	}
 
-	body.large-nav .side-nav-large-container:hover {
+	.large-nav .side-nav-large-container:hover {
 		width: 100%;
 	}
 
-	.side-nav-large-container:hover .side-nav-large .nav-content .logo-container .logo .logo-symbol {
+	.side-nav-large-container:hover .logo-symbol {
 		margin: 50px auto 0 auto;
 	}
 
-	.side-nav-large .nav-content .logo-container {
+	.side-nav-large .logo-container {
 		border-top: 0;
 	}
 
@@ -273,15 +273,15 @@ body.large-nav .side-nav-large-container:hover {
 		display: inline-block;
 	}
 
-	.side-nav-large .nav-content .logo-container {
+	.side-nav-large .logo-container {
 		height: 210px;
 	}
 
-	.side-nav-large .nav-content .copyright {
+	.side-nav-large .copyright {
 		font-size: 13px;
 	}
 
-	.side-nav-large .nav-content .copyright span {
+	.side-nav-large .copyright span {
 		vertical-align: text-top;
 		margin-top: 1px;
 	}

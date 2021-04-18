@@ -1,10 +1,10 @@
-.pages-container div.work {
+.work {
 	background-color: rgba(0, 0, 0, 0.1);
 	width: 100%;
 	height: 100%;
 }
 
-.pages-container div.work .projects-grid {
+.work .projects-grid {
 	height: 100%;
 	float: left;
 	background-color: rgba(255, 255, 255, 1);
@@ -16,7 +16,7 @@
 	transition: all 0.3s;
 }
 
-.pages-container div.work .projects-grid ul {
+.work .projects-grid ul {
 	width: 100%;
 	margin: 0;
 	list-style: none;
@@ -33,33 +33,33 @@
 	transition: opacity 0.3s;
 }
 
-.pages-container div.work .projects-grid ul.fadeOut {
+.work .projects-grid ul.fadeOut {
 	opacity: 0;
 }
 
 @media only screen and (max-width: 1600px) {
-	.pages-container div.work .projects-grid ul {
+	.work .projects-grid ul {
 		grid-gap: 55px;
 		padding: 55px;
 	}
 }
 
 @media only screen and (max-width: 1500px) {
-	.pages-container div.work .projects-grid ul {
+	.work .projects-grid ul {
 		grid-gap: 50px;
 		padding: 50px;
 	}
 }
 
 @media only screen and (max-width: 1400px) {
-	.pages-container div.work .projects-grid ul {
+	.work .projects-grid ul {
 		grid-gap: 45px;
 		padding: 45px;
 	}
 }
 
 @media only screen and (max-width: 1300px) {
-	.pages-container div.work .projects-grid ul {
+	.work .projects-grid ul {
 		grid-gap: 40px;
 		padding: 40px;
 		grid-template-columns: 1fr 1fr;
@@ -67,28 +67,28 @@
 }
 
 @media only screen and (max-width: 1200px) {
-	.pages-container div.work .projects-grid ul {
+	.work .projects-grid ul {
 		grid-gap: 35px;
 		padding: 35px;
 	}
 }
 
 @media only screen and (max-width: 1100px) {
-	.pages-container div.work .projects-grid ul {
+	.work .projects-grid ul {
 		grid-gap: 30px;
 		padding: 30px;
 	}
 }
 
 @media only screen and (max-width: 1000px) {
-	.pages-container div.work .projects-grid ul {
+	.work .projects-grid ul {
 		grid-gap: 25px;
 		padding: 25px;
 	}
 }
 
 @media only screen and (max-width: 950px) {
-	.pages-container .work div.projects-grid {
+	.work .projects-grid {
 		width: 100% !important;
 		overflow-y: hidden;
 		height: auto;
@@ -96,7 +96,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-	.pages-container div.work .projects-grid ul {
+	.work .projects-grid ul {
 		grid-template-columns: 1fr;
 	}
 }

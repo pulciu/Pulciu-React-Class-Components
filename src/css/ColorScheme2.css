@@ -27,73 +27,73 @@
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3c1a44",endColorstr="#e09f91",GradientType=1);
 }
 
-.cs2 .side-nav-large .nav-content .logo-container .logo .logo-symbol .st1 {
+.cs2 .st1 {
 	fill-rule: evenodd;
 	clip-rule: evenodd;
 	fill: var(--cs2-c1-C);
 }
-.cs2 .side-nav-large .nav-content .logo-container .logo .logo-symbol .st2 {
+.cs2 .st2 {
 	fill-rule: evenodd;
 	clip-rule: evenodd;
 	fill: var(--cs2-c4-C);
 }
-.cs2 .side-nav-large .nav-content .logo-container .logo h2 {
+.cs2 .logo h2 {
 	color: var(--cs2-c1-C);
 }
 
-.cs2 .side-nav-large .nav-content li:nth-child(2) div {
+.cs2 .side-nav-large li:nth-child(2) div {
 	color: var(--cs2-c1-B);
 }
-.cs2 .side-nav-large .nav-content li:nth-child(2) div .bar {
+.cs2 .side-nav-large li:nth-child(2) div .bar {
 	background-color: var(--cs2-c1-A);
 }
-.cs2 .side-nav-large .nav-content li:nth-child(2) div.selected {
+.cs2 .side-nav-large li:nth-child(2) div.selected {
 	background-color: var(--cs2-c1-A);
 	color: #fff;
 }
-.cs2 .side-nav-large .nav-content li:nth-child(2) div.selected .bar {
+.cs2 .side-nav-large li:nth-child(2) div.selected .bar {
 	background-color: rgba(255, 255, 255, 0.2);
 }
 
-.cs2 .side-nav-large .nav-content li:nth-child(3) div {
+.cs2 .side-nav-large li:nth-child(3) div {
 	color: var(--cs2-c2-B);
 }
-.cs2 .side-nav-large .nav-content li:nth-child(3) div .bar {
+.cs2 .side-nav-large li:nth-child(3) div .bar {
 	background-color: var(--cs2-c2-A);
 }
-.cs2 .side-nav-large .nav-content li:nth-child(3) div.selected {
+.cs2 .side-nav-large li:nth-child(3) div.selected {
 	background-color: var(--cs2-c2-A);
 	color: #fff;
 }
-.cs2 .side-nav-large .nav-content li:nth-child(3) div.selected .bar {
+.cs2 .side-nav-large li:nth-child(3) div.selected .bar {
 	background-color: rgba(255, 255, 255, 0.15);
 }
 
-.cs2 .side-nav-large .nav-content li:nth-child(4) div {
+.cs2 .side-nav-large li:nth-child(4) div {
 	color: var(--cs2-c3-B);
 }
-.cs2 .side-nav-large .nav-content li:nth-child(4) div .bar {
+.cs2 .side-nav-large li:nth-child(4) div .bar {
 	background-color: var(--cs2-c3-A);
 }
-.cs2 .side-nav-large .nav-content li:nth-child(4) div.selected {
+.cs2 .side-nav-large li:nth-child(4) div.selected {
 	background-color: var(--cs2-c3-A);
 	color: #fff;
 }
-.cs2 .side-nav-large .nav-content li:nth-child(4) div.selected .bar {
+.cs2 .side-nav-large li:nth-child(4) div.selected .bar {
 	background-color: rgba(255, 255, 255, 0.1);
 }
 
-.cs2 .side-nav-large .nav-content li:nth-child(5) div {
+.cs2 .side-nav-large li:nth-child(5) div {
 	color: var(--cs2-c4-C);
 }
-.cs2 .side-nav-large .nav-content li:nth-child(5) div .bar {
+.cs2 .side-nav-large li:nth-child(5) div .bar {
 	background-color: var(--cs2-c4-A);
 }
-.cs2 .side-nav-large .nav-content li:nth-child(5) div.selected {
+.cs2 .side-nav-large li:nth-child(5) div.selected {
 	background-color: var(--cs2-c4-A);
 	color: #fff;
 }
-.cs2 .side-nav-large .nav-content li:nth-child(5) div.selected .bar {
+.cs2 .side-nav-large li:nth-child(5) div.selected .bar {
 	background-color: rgba(255, 255, 255, 0.05);
 }
 
@@ -113,111 +113,111 @@
 .cs2 .icon:hover svg {
 	fill: #fff;
 }
-.cs2 .side-nav-large .nav-content .copyright {
+.cs2 .side-nav-large .copyright {
 	color: var(--cs2-c4-C2);
 }
-.cs2 .pages-container .home .content ul.title li {
+.cs2 .home ul.title li {
 	background-color: var(--cs2-c1-A);
 	color: #fff;
 }
-.cs2 .pages-container .home .content ul.title li:hover {
+.cs2 .home ul.title li:hover {
 	color: var(--cs2-c1-A);
 	background-color: #fff;
 	z-index: 3;
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
 }
-.cs2 .pages-container .home .content ul.title li.selected {
+.cs2 .home ul.title li.selected {
 	color: var(--cs2-c1-A);
 	background-color: #fff;
 }
-.cs2 .pages-container div.work .projects-grid li {
+.cs2 .work .projects-grid li {
 	background-color: var(--cs2-c3-A);
 }
-.cs2 .pages-container div.work .categories ul li {
+.cs2 .work .categories li {
 	color: #fff;
 }
-.cs2 .pages-container div.work .categories ul li.favorites {
+.cs2 .work .categories .favorites {
 	color: var(--cs2-c1-B);
 }
-.cs2 .pages-container div.work .categories ul li.favorites svg {
+.cs2 .work .categories .favorites svg {
 	fill: var(--cs2-c1-B);
 	color: var(--cs2-c1-B);
 }
-.cs2 .pages-container div.work .categories ul li.selected {
+.cs2 .work .categories .selected {
 	color: var(--cs2-c4-A);
 }
-.cs2 .pages-container div.work .categories ul li.selected svg {
+.cs2 .work .categories .selected svg {
 	fill: var(--cs2-c4-A);
 }
-.cs2 .pages-container div.work .categories ul li.search input[type="text"] {
+.cs2 .work .search input[type="text"] {
 	border-bottom: 2px solid var(--cs2-c1-B2);
 	color: var(--cs2-c1-B);
 }
-.cs2 .pages-container div.work .categories ul li.search input[type="text"]:focus {
+.cs2 .work .search input[type="text"]:focus {
 	border-bottom: 2px solid var(--cs2-c1-B3);
 }
-.cs2 .pages-container div.work .categories ul li.search ::placeholder {
+.cs2 .work .search ::placeholder {
 	color: var(--cs2-c1-B);
 	opacity: 0.5;
 }
-.cs2 .pages-container div.work .categories ul li.search :-ms-input-placeholder {
+.cs2 .work .search :-ms-input-placeholder {
 	color: var(--cs2-c1-B);
 	opacity: 0.5;
 }
-.cs2 .pages-container div.work .categories ul li.search ::-ms-input-placeholder {
+.cs2 .work .search ::-ms-input-placeholder {
 	color: var(--cs2-c1-B);
 	opacity: 0.5;
 }
-.cs2 .pages-container div.work .categories ul li.search svg {
+.cs2 .work .search svg {
 	fill: var(--cs2-c1-B);
 }
-.cs2 .pages-container div.work .categories ul li.search.selected input[type="text"] {
+.cs2 .work .search.selected input[type="text"] {
 	border-bottom: 2px solid var(--cs2-c4-A2);
 	color: var(--cs2-c4-A);
 }
-.cs2 .pages-container div.work .categories ul li.search.selected input[type="text"]:focus {
+.cs2 .work .search.selected input[type="text"]:focus {
 	border-bottom: 2px solid var(--cs2-c4-A3);
 }
-.cs2 .pages-container div.work .categories ul li.search.selected ::placeholder {
+.cs2 .work .search.selected ::placeholder {
 	color: var(--cs2-c4-A);
 	opacity: 0.5;
 }
-.cs2 .pages-container div.work .categories ul li.search.selected :-ms-input-placeholder {
+.cs2 .work .search.selected :-ms-input-placeholder {
 	color: var(--cs2-c4-A);
 	opacity: 0.5;
 }
-.cs2 .pages-container div.work .categories ul li.search.selected ::-ms-input-placeholder {
+.cs2 .work .search.selected ::-ms-input-placeholder {
 	color: var(--cs2-c4-A);
 	opacity: 0.5;
 }
-.cs2 .pages-container div.work .categories ul li.search.selected svg {
+.cs2 .work .search.selected svg {
 	fill: var(--cs2-c4-A);
 }
-.cs2 .pages-container div.work .projects-grid ul li .icon.add-favorite {
+.cs2 .work .icon.add-favorite {
 	-webkit-box-shadow: inset 0px 0px 0px 3px #fff;
 	-moz-box-shadow: inset 0px 0px 0px 3px #fff;
 	box-shadow: inset 0px 0px 0px 3px #fff;
 }
-.cs2 .pages-container div.work .projects-grid ul li .icon.add-favorite svg {
+.cs2 .work .icon.add-favorite svg {
 	fill: #fff;
 }
-.cs2 .pages-container div.work .projects-grid ul li .icon.add-favorite:hover {
+.cs2 .work .icon.add-favorite:hover {
 	-webkit-box-shadow: inset 0px 0px 0px 20px var(--cs2-c1-B);
 	-moz-box-shadow: inset 0px 0px 0px 20px var(--cs2-c1-B);
 	box-shadow: inset 0px 0px 0px 20px var(--cs2-c1-B);
 }
-.cs2 .pages-container div.work .categories ul li.favorites .share {
+.cs2 .work .share {
 	border: 1px solid var(--cs2-c1-B2);
 }
-.cs2 .pages-container div.work .categories ul li.favorites .share:hover {
+.cs2 .work .share:hover {
 	border: 1px solid var(--cs2-c1-A);
 	background-color: var(--cs2-c1-A);
 	color: #fff;
 }
-.cs2 .pages-container div.work .categories ul li.favorites.selected .share {
+.cs2 .work .favorites.selected .share {
 	border: 1px solid var(--cs2-c4-A2);
 }
-.cs2 .pages-container div.work .categories ul li.favorites.selected .share:hover {
+.cs2 .work .favorites.selected .share:hover {
 	border: 1px solid var(--cs2-c4-A);
 	background-color: var(--cs2-c4-A);
 	color: #fff;
@@ -226,103 +226,103 @@
 .cs2 .copy-format h5 {
 	color: var(--cs2-c1-B);
 }
-.cs2 .side-nav-small .nav-content li.home svg {
+.cs2 .side-nav-small .home svg {
 	fill: var(--cs2-c1-A);
 }
-.cs2 .side-nav-small .nav-content li.home:hover a {
+.cs2 .side-nav-small .home:hover a {
 	background-color: var(--cs2-c1-A);
 }
-.cs2 .side-nav-small .nav-content li.home a.active {
+.cs2 .side-nav-small .home a.active {
 	background-color: var(--cs2-c1-A);
 }
-.cs2 .side-nav-small .nav-content li.home:hover svg {
+.cs2 .side-nav-small .home:hover svg {
 	fill: #fff;
 }
-.cs2 .side-nav-small .nav-content li.home a.active svg {
+.cs2 .side-nav-small .home a.active svg {
 	fill: #fff;
 }
-.cs2 .side-nav-small .nav-content li.work svg {
+.cs2 .side-nav-small .work svg {
 	fill: var(--cs2-c2-A);
 }
-.cs2 .side-nav-small .nav-content li.work:hover a {
+.cs2 .side-nav-small .work:hover a {
 	background-color: var(--cs2-c2-A);
 }
-.cs2 .side-nav-small .nav-content li.work a.active {
+.cs2 .side-nav-small .work a.active {
 	background-color: var(--cs2-c2-A);
 }
-.cs2 .side-nav-small .nav-content li.work:hover svg {
+.cs2 .side-nav-small .work:hover svg {
 	fill: #fff;
 }
-.cs2 .side-nav-small .nav-content li.work a.active svg {
+.cs2 .side-nav-small .work a.active svg {
 	fill: #fff;
 }
-.cs2 .side-nav-small .nav-content li.about svg {
+.cs2 .side-nav-small .about svg {
 	fill: var(--cs2-c3-A);
 }
-.cs2 .side-nav-small .nav-content li.about:hover a {
+.cs2 .side-nav-small .about:hover a {
 	background-color: var(--cs2-c3-A);
 }
-.cs2 .side-nav-small .nav-content li.about a.active {
+.cs2 .side-nav-small .about a.active {
 	background-color: var(--cs2-c3-A);
 }
-.cs2 .side-nav-small .nav-content li.about:hover svg {
+.cs2 .side-nav-small .about:hover svg {
 	fill: #fff;
 }
-.cs2 .side-nav-small .nav-content li.about a.active svg {
+.cs2 .side-nav-small .about a.active svg {
 	fill: #fff;
 }
-.cs2 .side-nav-small .nav-content li.contact svg {
+.cs2 .side-nav-small .contact svg {
 	fill: var(--cs2-c4-B);
 }
-.cs2 .side-nav-small .nav-content li.contact:hover a {
+.cs2 .side-nav-small .contact:hover a {
 	background-color: var(--cs2-c4-B);
 }
-.cs2 .side-nav-small .nav-content li.contact a.active {
+.cs2 .side-nav-small .contact a.active {
 	background-color: var(--cs2-c4-B);
 }
-.cs2 .side-nav-small .nav-content li.contact:hover svg {
+.cs2 .side-nav-small .contact:hover svg {
 	fill: #fff;
 }
-.cs2 .side-nav-small .nav-content li.contact a.active svg {
+.cs2 .side-nav-small .contact a.active svg {
 	fill: #fff;
 }
-.cs2 .side-nav-small .nav-content li.paint-bucket svg,
-.cs2 .side-nav-small .nav-content li.resume svg,
-.cs2 .side-nav-small .nav-content li.expand svg {
+.cs2 .side-nav-small .paint-bucket svg,
+.cs2 .side-nav-small .resume svg,
+.cs2 .side-nav-small .expand svg {
 	fill: rgba(255, 255, 255, 0.1);
 }
-.cs2 .side-nav-small .nav-content li.paint-bucket:hover svg,
-.cs2 .side-nav-small .nav-content li.resume:hover svg,
-.cs2 .side-nav-small .nav-content li.expand:hover svg {
+.cs2 .side-nav-small .paint-bucket:hover svg,
+.cs2 .side-nav-small .resume:hover svg,
+.cs2 .side-nav-small .expand:hover svg {
 	fill: rgba(255, 255, 255, 1);
 }
-.cs2 .pages-container div.work .categories ul li.favorites.selected span {
+.cs2 .work .favorites.selected span {
 	color: var(--cs2-c1-A);
 }
-.cs2 .contact-form form textarea {
+.cs2 .contact-form textarea {
 	border: 2px solid var(--cs2-c1-B2);
 	color: var(--cs2-c1-B);
 }
-.cs2 .contact-form form textarea:focus {
+.cs2 .contact-form textarea:focus {
 	border: 2px solid var(--cs2-c1-B3);
 }
-.cs2 .contact-form form input[type="submit"] {
+.cs2 .contact-form input[type="submit"] {
 	background-color: var(--cs2-c2-A);
 }
-.cs2 .contact-form form input[type="submit"]:hover {
+.cs2 .contact-form input[type="submit"]:hover {
 	color: var(--cs2-c2-A);
 	background-color: #fff;
 }
-.cs2 .contact-form form input[type="text"],
-.cs2 .contact-form form input[type="email"] {
+.cs2 .contact-form input[type="text"],
+.cs2 .contact-form input[type="email"] {
 	border-bottom: 2px solid var(--cs2-c1-B2);
 }
-.cs2 .contact-form form input[type="text"]:focus,
-.cs2 .contact-form form input[type="email"]:focus {
+.cs2 .contact-form input[type="text"]:focus,
+.cs2 .contact-form input[type="email"]:focus {
 	border-bottom: 2px solid var(--cs2-c1-B3);
 }
-.cs2 .contact-form form input[type="text"],
-.cs2 .contact-form form input[type="email"] {
+.cs2 .contact-form input[type="text"],
+.cs2 .contact-form input[type="email"] {
 	color: var(--cs2-c1-B);
 }
 .cs2 .contact-form ::placeholder {
@@ -337,14 +337,14 @@
 	color: var(--cs2-c1-B);
 	opacity: 0.5;
 }
-.cs2 .pages-container div.work .categories {
+.cs2 .work .categories {
 	background: rgb(0, 0, 0);
 	background: -moz-linear-gradient(-90deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.35) 10%);
 	background: -webkit-linear-gradient(-90deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.35) 10%);
 	background: linear-gradient(-90deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.35) 10%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
 }
-.cs2 .pages-container div.work .categories ul {
+.cs2 .work .categories ul {
 	-webkit-box-shadow: 0px 0px 25px 0px rgb(0 0 0 / 45%);
 	-moz-box-shadow: 0px 0px 25px 0px rgb(0 0 0 / 45%);
 	box-shadow: 0px 0px 25px 0px rgb(0 0 0 / 45%);
@@ -356,12 +356,12 @@
 	background: linear-gradient(-90deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.65) 15%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
 }
-.cs2 .side-nav-large .nav-content .logo-container {
+.cs2 .side-nav-large .logo-container {
 	-webkit-box-shadow: 0px -10px 16px 0px rgba(0, 0, 0, 0.25);
 	-moz-box-shadow: 0px -10px 16px 0px rgba(0, 0, 0, 0.25);
 	box-shadow: 0px -10px 16px 0px rgba(0, 0, 0, 0.25);
 }
-.cs2 .side-nav-large .nav-content .copyright {
+.cs2 .side-nav-large .copyright {
 	background: rgb(0, 0, 0);
 	background: -moz-linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 35%);
 	background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 35%);
@@ -375,7 +375,7 @@
 	background: linear-gradient(-90deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.65) 35%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
 }
-.cs2 .side-nav-small .nav-content li {
+.cs2 .side-nav-small li {
 	background-color: rgba(0, 0, 0, 0.4);
 }
 .cs2 .side-nav-large {
@@ -384,17 +384,17 @@
 .cs2 .side-nav-small {
 	border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.15)) 1 100%;
 }
-.cs2 .contact-form form input[type="submit"]:hover {
+.cs2 .contact-form input[type="submit"]:hover {
 	-webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.5);
 	-moz-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.5);
 	box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.5);
 }
-.cs2 .copy-format .message-sent h3 {
+.cs2 .message-sent h3 {
 	color: var(--cs2-c1-A);
 }
 
 @media only screen and (max-width: 950px) {
-	.cs2 .pages-container div.work .categories {
+	.cs2 .work .categories {
 		background: rgb(0, 0, 0);
 		background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.35) 10%);
 		background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.35) 10%);

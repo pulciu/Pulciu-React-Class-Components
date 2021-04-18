@@ -1,11 +1,12 @@
-.pages-container .work .categories {
+.work .categories {
 	width: 23rem;
 }
 
-.pages-container .work .categories:hover {
+.work .categories:hover {
 	width: 25rem;
 }
-.pages-container div.work .categories {
+
+.work .categories {
 	height: 100%;
 	float: left;
 	display: -webkit-box;
@@ -27,7 +28,7 @@
 	transition: width 0.3s;
 }
 
-.pages-container div.work .categories ul {
+.work .categories ul {
 	padding: 0;
 	margin: 0;
 	list-style: none;
@@ -35,7 +36,7 @@
 	box-sizing: border-box;
 }
 
-.pages-container div.work .categories ul li {
+.work .categories li {
 	position: relative;
 	cursor: pointer;
 	color: #fff;
@@ -51,7 +52,7 @@
 	transition: all 0.3s;
 }
 
-.pages-container div.work .categories ul li .bar {
+.work .bar {
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -65,8 +66,9 @@
 	transition: all 0.3s;
 }
 
-.pages-container div.work .categories ul li .tab-label {
+.work .tab-label {
 	position: relative;
+	display: inline-block;
 	z-index: 3;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
@@ -76,19 +78,19 @@
 	user-select: none;
 }
 
-.pages-container div.work .categories ul li .tab-label > div {
+.work .tab-label > div {
 	display: inline-block;
 }
 
-.pages-container div.work .categories ul li:hover .bar {
+.work .categories li:hover .bar {
 	width: 6px;
 }
 
-.pages-container div.work .categories ul li.selected .bar {
+.work .categories li.selected .bar {
 	width: 100%;
 }
 
-.pages-container div.work .categories ul li.favorites {
+.work .categories .favorites {
 	background-color: rgba(0, 0, 0, 0.4) !important;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 	position: relative;
@@ -104,26 +106,26 @@
 	transition: all 0.3s;
 }
 
-.pages-container div.work .categories ul li.favorites.visible {
+.work .categories .favorites.visible {
 	max-height: 100px;
 	padding: 25px;
 	border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.pages-container div.work .categories ul li.favorites span {
+.work .categories .favorites span {
 	color: #fff;
 	font-weight: 500;
 	padding-left: 3px;
 }
 
-.pages-container div.work .categories ul li.favorites svg {
+.work .categories .favorites svg {
 	width: 1.6rem;
 	margin-right: 0.4rem;
 	vertical-align: middle;
 	margin-top: -0.2rem;
 }
 
-.select-favorites-tab {
+.work .select-favorites-tab {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -132,7 +134,7 @@
 	z-index: 2;
 }
 
-.pages-container div.work .categories ul li.favorites .share {
+.work .share {
 	opacity: 0;
 	max-width: 0;
 	overflow: hidden;
@@ -153,24 +155,23 @@
 	white-space: nowrap;
 }
 
-.pages-container div.work .categories:hover ul li.favorites .share {
+.work .categories:hover .share {
 	margin-left: 10px;
 	opacity: 1;
 	max-width: 6rem;
 	padding: 0.6rem;
 }
 
-.pages-container div.work .categories ul li.search {
+.work .search {
 	position: relative;
 	padding-top: 10px;
 	background-color: rgba(0, 0, 0, 0.5) !important;
 }
 
-.pages-container div.work .categories ul li.search svg {
+.work .search svg {
 	position: absolute;
 	right: 25px;
 	top: 50%;
-	margin-top: -6px;
 	transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
@@ -179,7 +180,7 @@
 	z-index: 3;
 }
 
-.pages-container div.work .categories ul li.search input[type="text"] {
+.work .search input[type="text"] {
 	appearance: none;
 	border: 0;
 	width: 100%;
@@ -196,24 +197,24 @@
 	transition: all 0.3s;
 }
 
-.pages-container div.work .categories ul li.search input[type="text"]:focus {
+.work .search input[type="text"]:focus {
 	outline: none;
 	border: none;
 }
 
-.pages-container div.work .categories ul li.selected {
+.work .categories .selected {
 	cursor: default;
 }
 
 @media only screen and (max-width: 950px) {
-	.pages-container div.work .categories,
-	.pages-container .work .categories:hover {
+	.work .categories,
+	.work .categories:hover {
 		width: 100%;
 	}
-	.pages-container div.work .categories ul li {
+	.work .categories li {
 		border-top: 0;
 	}
-	.pages-container div.work .categories ul li.favorites .share {
+	.work .categories li.favorites .share {
 		margin-left: 10px;
 		opacity: 1;
 		max-width: 5rem;

@@ -1,4 +1,4 @@
-.color-schemes ul li:nth-child(1) {
+.color-schemes li:nth-child(1) {
 	background-repeat: repeat;
 	background: url("../images/oblique_pattern_light.png"), rgb(20, 23, 40);
 	background: url("../images/oblique_pattern_light.png"), -moz-linear-gradient(30deg, rgba(20, 23, 40, 1) 0%, rgba(32, 34, 51, 1) 20%, rgba(66, 64, 80, 1) 50%, rgba(172, 147, 143, 1) 100%);
@@ -7,7 +7,7 @@
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#141728",endColorstr="#ac938f",GradientType=1);
 }
 
-.color-schemes ul li:nth-child(2) {
+.color-schemes li:nth-child(2) {
 	background: url("../images/oblique_pattern_light.png"), rgb(60, 26, 68);
 	background: url("../images/oblique_pattern_light.png"), -moz-linear-gradient(30deg, rgba(60, 26, 68, 1) 0%, rgba(122, 56, 82, 1) 27%, rgba(171, 92, 104, 1) 55%, rgba(224, 159, 145, 1) 92%);
 	background: url("../images/oblique_pattern_light.png"), -webkit-linear-gradient(30deg, rgba(60, 26, 68, 1) 0%, rgba(122, 56, 82, 1) 27%, rgba(171, 92, 104, 1) 55%, rgba(224, 159, 145, 1) 92%);
@@ -15,7 +15,7 @@
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3c1a44",endColorstr="#e09f91",GradientType=1);
 }
 
-.color-schemes ul li:nth-child(3) {
+.color-schemes li:nth-child(3) {
 	background: url("../images/oblique_pattern_light.png"), rgb(26, 17, 61);
 	background: url("../images/oblique_pattern_light.png"), -moz-linear-gradient(30deg, rgba(26, 17, 61, 1) 0%, rgba(31, 69, 124, 1) 41%, rgba(53, 121, 159, 1) 64%, rgba(115, 255, 234, 1) 100%);
 	background: url("../images/oblique_pattern_light.png"), -webkit-linear-gradient(30deg, rgba(26, 17, 61, 1) 0%, rgba(31, 69, 124, 1) 41%, rgba(53, 121, 159, 1) 64%, rgba(115, 255, 234, 1) 100%);
@@ -37,7 +37,7 @@
 	position: relative;
 }
 
-.color-schemes ul li {
+.color-schemes li {
 	padding: 0;
 	margin: 0;
 	width: 150px;
@@ -62,15 +62,15 @@
 	-webkit-transform: translate(-50%, -50%);
 }
 
-.color-schemes ul li:nth-child(1) {
+.color-schemes li:nth-child(1) {
 	margin-left: -200px;
 }
 
-.color-schemes ul li:nth-child(3) {
+.color-schemes li:nth-child(3) {
 	margin-left: 200px;
 }
 
-.color-schemes ul li:hover {
+.color-schemes li:hover {
 	width: 160px;
 	height: 160px;
 	z-index: 2;
@@ -79,7 +79,7 @@
 	box-shadow: 0px 15px 40px 0px rgba(0, 0, 0, 0.4), inset 0px 10px 30px 0px rgba(255, 255, 255, 0.3);
 }
 
-body.show-color-schemes .color-schemes {
+.show-color-schemes .color-schemes {
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -107,21 +107,21 @@ body.show-color-schemes .color-schemes {
 }
 
 @media only screen and (max-width: 1300px) {
-	.color-schemes ul li {
+	.color-schemes li {
 		width: 130px;
 		height: 130px;
 	}
 
-	.color-schemes ul li:hover {
+	.color-schemes li:hover {
 		width: 140px;
 		height: 140px;
 	}
 
-	.color-schemes ul li:nth-child(1) {
+	.color-schemes li:nth-child(1) {
 		margin-left: -180px;
 	}
 
-	.color-schemes ul li:nth-child(3) {
+	.color-schemes li:nth-child(3) {
 		margin-left: 180px;
 	}
 
@@ -131,21 +131,21 @@ body.show-color-schemes .color-schemes {
 }
 
 @media only screen and (max-width: 1200px) {
-	.color-schemes ul li {
+	.color-schemes li {
 		width: 110px;
 		height: 110px;
 	}
 
-	.color-schemes ul li:hover {
+	.color-schemes li:hover {
 		width: 130px;
 		height: 130px;
 	}
 
-	.color-schemes ul li:nth-child(1) {
+	.color-schemes li:nth-child(1) {
 		margin-left: -160px;
 	}
 
-	.color-schemes ul li:nth-child(3) {
+	.color-schemes li:nth-child(3) {
 		margin-left: 160px;
 	}
 
@@ -155,21 +155,21 @@ body.show-color-schemes .color-schemes {
 }
 
 @media only screen and (max-width: 1100px) {
-	.color-schemes ul li {
+	.color-schemes li {
 		width: 90px;
 		height: 90px;
 	}
 
-	.color-schemes ul li:hover {
+	.color-schemes li:hover {
 		width: 110px;
 		height: 110px;
 	}
 
-	.color-schemes ul li:nth-child(1) {
+	.color-schemes li:nth-child(1) {
 		margin-left: -140px;
 	}
 
-	.color-schemes ul li:nth-child(3) {
+	.color-schemes li:nth-child(3) {
 		margin-left: 140px;
 	}
 
@@ -187,22 +187,22 @@ body.show-color-schemes .color-schemes {
 		height: 250px;
 	}
 
-	.color-schemes ul li {
+	.color-schemes li {
 		width: 70px;
 		height: 70px;
 	}
 
-	.color-schemes ul li:hover {
+	.color-schemes li:hover {
 		width: 70px;
 		height: 70px;
 	}
 
-	.color-schemes ul li:nth-child(1) {
+	.color-schemes li:nth-child(1) {
 		margin-top: -90px;
 		margin-left: 0;
 	}
 
-	.color-schemes ul li:nth-child(3) {
+	.color-schemes li:nth-child(3) {
 		margin-top: 90px;
 		margin-left: 0;
 	}
